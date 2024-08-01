@@ -8,6 +8,7 @@ This Station is running on a ESP32S2 board connected to APRS-IS feed and its goa
 ### How to contact it?
 Just send a message to the station *(currently CA2RXU-15)* and it will answer back with the info.
 
+-----
 
 ### Weather Answers:
 Weather Queries generete a message with:
@@ -19,7 +20,7 @@ Weather Queries generete a message with:
 - Wind Speed (m/s)
 - Wind Direction (deg)
 
-
+-----
 
 ### Weather Queries:
 - **"WEATHER"** or **"WRH"** ----> ANSWER: Current Weather data of the GPS position of the Station who ask for report.
