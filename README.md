@@ -19,7 +19,7 @@ Just send a message to the station *(currently CA2RXU-15)* and it will answer ba
 
 - **"W *city*"** -----------> ANSWER:
 
-- - **"WL *city*"** -----------> ANSWER: 
+- **"WL *city*"** -----------> ANSWER: 
   
 - **"?APRS?" ------------------> ANSWER : "?APRSV ?APRSP ?APRSL ?APRSH ?WHERE callsign ?UTC"
   
