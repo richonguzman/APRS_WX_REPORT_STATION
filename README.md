@@ -11,7 +11,7 @@ Just send a message to the station *(currently CA2RXU-15)* and it will answer ba
 -----
 
 ### Weather Answers:
-Weather Queries generete a message with:
+Weather Queries generate an answer-message with:
 - Name/Place of the station who ask for the report.
 - Current Weather Description like "Clear Sky"
 - Temperature (°C)
