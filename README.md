@@ -21,15 +21,15 @@ Just send a message to the station *(currently CA2RXU-15)* and it will answer ba
 
 - **"WL *city*"** ------------------> ANSWER: 
   
-- **"?APRS?"** ---------------------> ANSWER : "?APRSV ?APRSP ?APRSL ?APRSH ?WHERE callsign ?UTC"
+- **"?APRS?"** ------------------> ANSWER : "?APRSV ?APRSP ?APRSL ?APRSH ?WHERE callsign ?UTC"
   
-- **"?APRSV"** ---------------------> ANSWER : "?APRSV ?APRSP ?APRSL ?APRSH ?WHERE callsign ?UTC"
+- **"?APRSV"** ------------------> ANSWER : "?APRSV ?APRSP ?APRSL ?APRSH ?WHERE callsign ?UTC"
   
-- **"?APRSP"** ---------------------> ANSWER : "?APRSV ?APRSP ?APRSL ?APRSH ?WHERE callsign ?UTC"
+- **"?APRSP"** ------------------> ANSWER : "?APRSV ?APRSP ?APRSL ?APRSH ?WHERE callsign ?UTC"
   
-- **"?APRSL"** ---------------------> ANSWER : "?APRSV ?APRSP ?APRSL ?APRSH ?WHERE callsign ?UTC"
+- **"?APRSL"** ------------------> ANSWER : "?APRSV ?APRSP ?APRSL ?APRSH ?WHERE callsign ?UTC"
   
-- **"?UTC"** -----------------------> ANSWER : "?APRSV ?APRSP ?APRSL ?APRSH ?WHERE callsign ?UTC"
+- **"?UTC"** --------------------> ANSWER : "?APRSV ?APRSP ?APRSL ?APRSH ?WHERE callsign ?UTC"
 
 
 
