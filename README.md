@@ -23,17 +23,19 @@ Weather Queries generete a message with:
 -----
 
 ### Weather Queries:
-- **"WEATHER"** or **"WRH"** ----> ANSWER: Current Weather data of the GPS position of the Station who ask for report.
+- **"WEATHER"** or **"WRH"** ----> ANSWER: Current Weather data of the GPS position of the Station who ask for report. If the Station who ask for report does not have a valid GPS position info on APRS if won't be able to get the gps position from APRS API and therefor not valid answer will be generated. This info is generated as two APRS messages back to the asking station.
 
-- **"WRL"** ---------------------> ANSWER: 
+- **"WRL"** ---------------------> ANSWER: Current Weather data of the GPS position of the Station who ask for report but encoded for LoRa APRS Trackers. Same as before: asking station needs valid APRS position registered. This info is generated as one APRS message back to the asking LoRa station/tracker.
 
-- **"W *city*"** -------------------> ANSWER:
+- **"W *city*"** -------------------> ANSWER: Current Weather data for the City. This info is generated as two APRS messages back to the asking station.
 
-- **"WL *city*"** ------------------> ANSWER:
-- 
+  
+- **"WL *city*"** ------------------> ANSWER: Current Weather data for the City but encoded for LoRa APRS Trackers. This info is generated as one APRS message back to the asking LoRa station/tracker.
+  
+
+-----
 
 ### Station Queries are:
-
 - **"HELP"** or **"H"** or **"?"** ------> ANSWER : "Send: '?APRS?'(Queries) 'WRH'(Weather) 'W City'(Weather City)"
   Just a small guide about commands/queries it can answer.
   
