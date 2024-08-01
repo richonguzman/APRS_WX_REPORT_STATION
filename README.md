@@ -9,10 +9,19 @@ This Station is running on a ESP32S2 board connected to APRS-IS feed and its goa
 ### Commands/Queries are:
 
 - "HELP" or "H" or "?" ------> ANSWER : "Send: '?APRS?'(Queries) 'WRH'(Weather) 'W City'(Weather City)"
+  
 - "?APRS?" ------------------> ANSWER : "?APRSV ?APRSP ?APRSL ?APRSH ?WHERE callsign ?UTC"
+  
 - "?APRS?" ------------------> ANSWER : "?APRSV ?APRSP ?APRSL ?APRSH ?WHERE callsign ?UTC"
+  
 - "?APRS?" ------------------> ANSWER : "?APRSV ?APRSP ?APRSL ?APRSH ?WHERE callsign ?UTC"
+  
 - "?APRS?" ------------------> ANSWER : "?APRSV ?APRSP ?APRSL ?APRSH ?WHERE callsign ?UTC"
+  
 - "?APRS?" ------------------> ANSWER : "?APRSV ?APRSP ?APRSL ?APRSH ?WHERE callsign ?UTC"
+  
 - "?APRS?" ------------------> ANSWER : "?APRSV ?APRSP ?APRSL ?APRSH ?WHERE callsign ?UTC"
-- "?APRS?" ------------------> ANSWER : "?APRSV ?APRSP ?APRSL ?APRSH ?WHERE callsign ?UTC"- 
+  
+- "?APRS?" ------------------> ANSWER : "?APRSV ?APRSP ?APRSL ?APRSH ?WHERE callsign ?UTC"
+
+- "hla"
