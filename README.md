@@ -13,7 +13,7 @@ Just send a message to the station *(currently CA2RXU-15)* and it will answer ba
 
 - **"HELP"** or **"H"** or **"?"** ------> ANSWER : "Send: '?APRS?'(Queries) 'WRH'(Weather) 'W City'(Weather City)"
 
-- **"WEATHER"** or **"WRH"** -----------> ANSWER: 
+- **"WEATHER"** or **"WRH"** ----> ANSWER: 
 
 - **"WRL"** ----------------> ANSWER: 
 
