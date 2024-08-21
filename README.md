@@ -38,7 +38,7 @@ Weather Queries generate an answer-message with:
 
 -----
 
-### Station Queries are:
+### Station Queries:
 - **"HELP"** or **"H"** or **"?"** ------> *ANSWER* : "Send: '?APRS?'(Queries) 'WRH'(Weather) 'W City'(Weather City)"
   Just a small guide about commands/queries it can answer.
   
@@ -56,7 +56,7 @@ Weather Queries generate an answer-message with:
 
 -----
 
-### Earthquakes Queries are:
+### Earthquakes Queries:
 _APRS WX Report Station_ gets GPS position of the Station who ask for report from _APRS_ API. If the Station who ask for report does not have a valid GPS position info on APRS if won't be able to get the gps position from APRS API and therefor not valid answer will be generated.
 
 - **"?EQ"** ------------------> *ANSWER* : List of all (Worldwide) earthquakes closer as a dinamic distance vs magnitude. If magnitude >= 5,0 and distance <= 350km || magnitude >= 6,0 and distance <= 750km || magnitude >= 7,0 and distance <= 1250km will be added to a list with earthquakes details. Each earthquake of the list will be a message.
