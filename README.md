@@ -3,7 +3,10 @@
 This Repository has the info of APRS_WX_REPORT_STATION *(currently CA2RXU-15)*
 
 ### What is it?
-This Station is running on a ESP32S2 board (coded over C++) connected to APRS-IS feed and its goal is to answer for Wx Queries from any type of station (LoRa, VHF AFSK, HF, TCPIP(Internet or phone apps)) over APRS. GPS Data is extracted from APRS API (www.aprs.fi) and Weather Data is from OpenWeatherMaps (https://openweathermap.org)
+This Station is running on a ESP32S2 board (coded over C++) connected to APRS-IS feed and its goal is to answer for Wx Queries from any type of station (LoRa, VHF AFSK, HF, TCPIP(Internet or phone apps)) over APRS. 
+- GPS Data is extracted from APRS API (www.aprs.fi)
+- Weather Data is from OpenWeatherMaps (https://openweathermap.org)
+- EarthQuakes Data is extracted from USGS (https://earthquake.usgs.gov)
 
 ### How to contact it?
 Just send an APRS Message to the station *(currently CA2RXU-15)* and it will answer back with the info over APRS Messages.
@@ -52,6 +55,19 @@ Weather Queries generate an answer-message with:
 
 
 -----
+
+### Earthquakes Queries are:
+_APRS WX Report Station_ gets GPS position of the Station who ask for report from _APRS_ API. If the Station who ask for report does not have a valid GPS position info on APRS if won't be able to get the gps position from APRS API and therefor not valid answer will be generated.
+
+- **"?EQ"** ------------------> *ANSWER* : List of all (Worldwide) earthquakes closer as a dinamic distance vs magnitude. If magnitude >= 5,0 and distance <= 350km || magnitude >= 6,0 and distance <= 750km || magnitude >= 7,0 and distance <= 1250km will be added to a list with earthquakes details. Each earthquake of the list will be a message.
+  
+- **"?EQ X"** ------------------> *ANSWER* : List of all (Worldwide) earthquakes closer than X kilometers. X max value is 1300kms. Example: **"?EQ 1000"** --> list of all earthquakes closer than 1000km with is magnitude over 4,5. Each earthquake of the list will be a message.
+  
+- **"?EQMX"** ------------------> *ANSWER* : List of all (Worldwide) earthquakes with its magnitude greater than X. Example: **"?EQM6"** --> list of all earthquakes over 6,0 in magnitude. Each earthquake of the list will be a message.
+
+  
+-----
+
 ### CONTACT ME
 Hi!
 
